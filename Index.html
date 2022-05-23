@@ -17,11 +17,13 @@
     <img class="Logo" src="Images\Icons\Logo\Light\Big\LogoLightBig.svg" alt="'Dutton Media'Logo">
         <div class="MenuButton">
           <a class="linkArea" href="Index.html" style="opacity: 40%;"><strong>Home</strong></a>
+          <!--The 'a class='--> identifies what this anchor is, the 'href' being the location where it will send the user, the <a></a> surrounding the word indicating that it will be utilised as the button in this scenario-->
           <a class="linkArea" href="Photography.html"><strong>Photograhy</strong></a>
           <a class="linkArea" href="DigitalArt.html"><strong>Digital Art</strong></a>
           <a class="linkArea" href="Animation.html"><strong>Animation</strong></a>
           <a class="linkArea" href="About.html"><strong>About us</strong></a>
           <a class="linkArea" href="Contact.html"><strong>Contact us</strong></a>
+          <!--this is repeated 5 more times, creating a list which can be later CSS styled into a more apt menu-->
         </div>
   </menu>
 
@@ -32,6 +34,7 @@
         <p class="TagLine">Welcome to <strong>DUTTON MEDIA</strong>, a collection of work created within my free time</p>
         <section class="MoveHomeHeadArt"><div class="center"><img id="img" src="Images\HeaderAnimations\WomanWaveAnim\womanwave0001.svg"></div></section>
       </header>
+  <!--Juxtaposing the other page's '<header>' elements, this one is animated, the key identifier being the "img id="img"", pointing the html to the Javascript coding for the animation-->
 
 
 
@@ -40,12 +43,14 @@
         <h3>why browse</h3>
           <h2>this website?</h2>
       </section>
-
+    
+<!--Semantic tags once again being utilised-->
 
     <section>
       <div class="AboutButtons">
         <div class="AboutBox">
           <div class="AboutImage1" onclick="on()"><img id="AboutIcon" src="Images\Icons\Browse\BrowseIcon.svg" alt="Browse"></div>
+          <!-- Once again, the W3Schools' (W3 Schools (2022)How TO - Overlay, How To Create an Overlay Effect. Available at:https://www.w3schools.com/howto/howto_css_overlay.asp (Accessed: April 28, 2022)) was utilised, allowing for the text boxes here to be created in the same fashion as was done before (in the 'About' section).-->
           <h3 class="AboutTXT">Browse</h3>
         </div>
             <div class="AboutBox">
@@ -62,6 +67,7 @@
 
       <section>
             <div id="TextBox">
+             
               <div id="TextBoxContent"><strong>Browse the content featured across the website, from photos to animated video and digital illustrations.</strong></div>
               <div class="closeIt" onclick="off()"><h4>x</h4></div>
             </div>
@@ -83,9 +89,11 @@
 
 
         <section>
+           <!-- employing new techniques, this tab was different from the rest, it's composure completely new. As such, the recommended psots had new DIV's created in a 'Section' semantic tag.-->
           <div class="ReccomendedContainer">
             <div class="Recommended1"><a href="DigitalArt.html">
               <img id="RecImg1" src="Images\Illustrations\Big\Duck.jpg" alt="Polygon Duck"></a>
+              <!--here, images were surrounded with hyperlinks, the image also recieving an ID as to allow for later image scaling and adjustments-->
             </div>
             <div class="Recommended2"><a href="Photography.html">
               <img id="RecImg2" src="Images\Photos\Big\Animals\OBJCT.jpg" alt="Squirrel"></a>

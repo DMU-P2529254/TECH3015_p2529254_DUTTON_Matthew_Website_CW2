@@ -4,14 +4,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- this aids in resposive webs design, scaling contents based upon the device utilised to view the website -->
   <link rel="stylesheet" href="CSS\Style.CSS">
   <title>About us</title>
   <script src="Javascript\Script.js"></script>
+   <!-- This links the Javascript file to the html, allowing for complex javascript tasks to be completed and effect tiems here-->
 </head>
 
 <body>
+  <!--Here you can see many examples of Semantic Tags (as well as lots more throughout the code), this is utilised to help differentiate content for both computers and coders, helping both understand what they're seeing-->
   <menu>
     <img class="Logo" src="Images\Icons\Logo\Light\Big\LogoLightBig.svg" alt="'Dutton Media'Logo">
+    <!--As they can be infinitely scaled up, '.SVG' assets were utilised for logos, allowing for a reponsive logo to match the websites reposnive design.-->
 
         <div class="MenuButton">
           <a class="linkArea" href="Index.html"><strong>Home</strong></a>
@@ -28,7 +32,10 @@
       <header>
         <h1>about</h1>
         <p class="TagLine">Learn what this <strong>WEBSITE'S</strong> about and what content it contains</p>
+        <!--the class is utilised on this paragraph a to allow for later adjustments of the text values of the paragrpah without affecting the orignal adjustment-->
         <section class="MoveHomeHeadArt4"><div class="center4"><img src="Images\HeaderAnimations\AboutAnim\About0040.svg"></div></section>
+        <--This is just an image (above), as the multiple frame by frame header animations caused too much strain on mobile devices.-->
+        <--The semantic tag is utilised here identifying different aspects of the header-->
       </header>
 
 
@@ -38,13 +45,15 @@
     <section>
       <h3>what's in this</h3>
       <h2>website!</h2>
+      <!--Different header tags are utilised throughout the document signifying various depths of headers and content in relation to one another-->
     </section>
 
         <section>
           <div class="AboutButtons">
             <div class="AboutBox">
+              <!-- Below, the W3Schools' (W3 Schools (2022)How TO - Overlay, How To Create an Overlay Effect. Available at:https://www.w3schools.com/howto/howto_css_overlay.asp (Accessed: April 28, 2022)) was utilised, allowing for a text box to appear and disappear with some mild adjustments to its CSS stylings).-->
               <div class="AboutImage" onclick="on()"><img id="AboutIconNEW" src="Images\Icons\About\TabArt.svg" alt="Browse"></div>
-            </div>
+            </div> <!--The "on()" function was moved from its original button to the image grouping, allowing for the entire image to be selected and activate the text box appearance-->
                 <div class="AboutBox">
                   <div class="AboutImage" onclick="on1()"><img id="AboutIconNEW" src="Images\Icons\About\TabArt2.svg" alt="Learn"></div>
                 </div>
@@ -58,10 +67,11 @@
             <div id="TextBox">
               <div id="TextBoxContent"><strong>View the photography that I have explored, researched and experimented within my own time, as well as presenting the overall technical details of the various images across three individual themes.</strong></div>
               <div class="closeIt" onclick="off()"><h4>x</h4></div>
+              
             </div>
                 <div id="TextBox1">
                   <div id="TextBoxContent"><strong>See the end products of short videos I have planned and created in my spare time and the editing processes which I applied to them.</strong></div>
-                  <div class="closeIt" onclick="off1() "><h4>x</h4></div>
+                  <div class="closeIt" onclick="off1() "><h4>x</h4></div> <!--here, the onclick listener is moved from its original button to an 'x'-->
                 </div>
             <div id="TextBox2">
               <div id="TextBoxContent"><strong>Explore through the various digital illustrations which I have created in my spare time and my working process behind creating them.</strong></div>
@@ -75,7 +85,7 @@
 
 
 
-
+<!-- as explained prior, semantic elemetns were utilised, the footer not an acception for this-->
   <footer>
     <div class="FooterGroup">
         <a href="Contact.html"><div class="FooterICON">
@@ -85,6 +95,8 @@
         <h4>Give us your feedback!</h4>
       </div>
     </div>
+    
+    <!--the footer had information separated into several DIV's for ease of traversing the files and arranging their contents with CSS styling-->
 
 
     <div class="FooterGroup">
@@ -99,6 +111,7 @@
 
     <div class="FooterGroup">
       <a href="Contact.html"><div class="FooterICON">
+        <!--The Respective pages for these icons were then linked accordingly-->
         <img id="FOOTERsvg" src="Images\Icons\Footer\ContactIcons\LocationLight.svg" alt="Location Icon">
       </div></a>
       <div class="FooterText">

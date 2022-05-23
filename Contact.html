@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="CSS\Style.CSS">
   <title>Contact</title>
   <script src="Javascript\Script.js"></script>
+ 
 </head>
 
 <body>
@@ -32,22 +33,24 @@
         <section class="MoveHomeHeadArt3"><div class="center3"><img src="Images\HeaderAnimations\ContactArmAnim\Contact0001.svg"></div></section>
       </header>
 
-
+ <!--See 'About' for insight for more insight on the above information-->
 
   <article>
     <h3>share your</h3>
     <h2>opinion!</h2>
 <br>
 <form id="form1" action="thanks.html">
+  <!--here, a 'form' element was utilised, applying the knowledge learned from the information provided by Dr. Francesc Martí in his "Working with Forms"(2022) Lab task (Marti, F. (2022) Working with Forms. Available at: https://francescmarti00.github.io/dmu-multimedia/lab-reader.html?Forms-PouchDB.md (Accessed: 24 March 2022)), to produce a realsitc looking document-->
 
         <label for="name"><strong>Name:</strong></label><br>
         <input type="text" id="name" placeholder="*" name="name" required><br><br>
-
+<!--labels are utilised to inform the user on what the following unput needs inserting into it-->
         <label for="email"><strong>Email:</strong></label><br>
         <input type="text" id="email" placeholder="*" name="email" required><br><br>
-
+<!--the "placeholder="*""> was utilised, asserting to the user what information is mandatory to be filled out-->
         <p><strong>Gender:</strong></p>
         <input type="radio" id="male" name="gender" value="male">
+  <!--the "input type="radio" is utilised here, allowing for the creation of a multipel choice answer list-->
         <label for="male">Male</label><br>
         <input type="radio" id="female" name="gender" value="female">
         <label for="female">Female</label><br>
@@ -56,11 +59,12 @@
 
         <label for="comments"><strong>Comments</strong></label><br>
         <input type="text" id="comments" placeholder="write your feedback..." name="comments" required><br><br>
-
+<!--the button is placed here to submit the form, placed at the end of the document so the particpants dont feel rushed.-->
         <button id="addUserFeedbackButton">Send Feedback</button>
 
 </form>
   </article>
+  <!--closing off, we see the use of semantic elements again, maintaining the sense of order-->
 
   <br><br><br>
   <footer>

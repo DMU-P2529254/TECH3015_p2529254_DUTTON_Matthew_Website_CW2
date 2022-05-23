@@ -16,6 +16,8 @@ body{
   border-radius: 25px;
   padding-bottom: 20px;
   font-size: 1em;
+  font-color:white;
+  font-family:arial;
   /*the em value is utilised here to maintain the current font size*/
   display: inline-block;
 }
